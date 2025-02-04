@@ -1,6 +1,7 @@
 """
 Tests for the main module functionality.
 """
+
 import pytest
 
 from example_app.main import calculate_average
