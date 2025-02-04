@@ -23,6 +23,9 @@
           program = "${example-app}/bin/example-app";
         };
 
+        # Add default package
+        packages.default = example-app;
+
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
             poetry
